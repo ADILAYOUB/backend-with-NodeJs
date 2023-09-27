@@ -132,5 +132,5 @@ Abstract operations are polymorphic operation
        a.a=3 => 3
        a => {a: 3, b: 20}
        a.a = 3
-    / see algo in  documentation 
+    / see algo in  documentation  
 */
