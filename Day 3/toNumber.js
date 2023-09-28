@@ -57,3 +57,12 @@ console.log('0xz' - 5) // it gives NaN why
 */
 
 console.log('0xabcd' - 5) 
+
+// Octal Number 
+// standard notation is 0o
+console.log('0o11' - 1) // 8
+/**
+ * '0o11' it is a string and become a valid Octal number 
+ * ToNumber('0o11') = +9
+ * and 9 - 1 = 8
+ */ 
