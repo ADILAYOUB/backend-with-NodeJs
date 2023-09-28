@@ -134,3 +134,6 @@ Abstract operations are polymorphic operation
        a.a = 3
     / see algo in  documentation  
 */
+
+
+console.log(12 - 2)
