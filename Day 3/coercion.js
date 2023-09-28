@@ -135,5 +135,3 @@ Abstract operations are polymorphic operation
     / see algo in  documentation  
 */
 
-
-console.log(12 - 2)

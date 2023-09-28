@@ -37,3 +37,23 @@ console.log(4 - true)
  * ToNumber(true) = 1
  * and 4 - true = -3
  */
+
+// hexadecimal numbers
+console.log('0xf' - 5)
+/**
+ * 0xf it is a string bu 0x at the strat 
+ * 0x it denotes start of  a hexadecimal number so we make it undergo ToNumber abstract operation
+ * ToNumber(0xf) = +15
+ * and 15 - 5 = 10 
+ * */
+
+// 0x always denotes a hexadecimal number but that can be a inValid hexadecimal number
+console.log('0xz' - 5) // it gives NaN why 
+/***
+ * 0xz it is a string but 0x at the strat indicates a hexadecimal number 
+ * but z is not a valid hexadecimal number 
+ *  ToNumber(0xz) = NaN  
+ * and NaN - 5 = NaN
+*/
+
+console.log('0xabcd' - 5) 
