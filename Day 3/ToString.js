@@ -31,3 +31,8 @@ console.log('Adil'+ true)
 // [null , undefined] => ","
 console.log('adil' + [null , undefined])
 console.log('adil' + [null])
+
+//! ValueOf and toString() are not abstract operation that means we can call them 
+// by default toString(0) on an object returns "[Object object]"
+// and by default valueOf(0) on an object returns same Object  
+// check valueOf.js
